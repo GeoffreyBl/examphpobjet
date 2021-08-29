@@ -1,0 +1,85 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+}
+#author{
+    margin-bottom: 20px !important;
+    font-size: smaller !important;
+}
+#trashcan{
+    position: absolute;
+    bottom: 5%;
+    color: #ffc048;
+    right: 5%;
+}
+#edit{
+    position: absolute;
+    bottom: 5%;
+    color: #ffc048;
+    right: 15%;
+}
+#author_read{
+    border-bottom: 1px black solid;
+}
+#author_create{
+    width: 300px;
+}
+#category_create{
+    width: 300px;
+}
+.inputstyle{
+    border: 0;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+}
+#submitbutton{
+    width: 150px;
+    background-color: #ffc048;
+    border-radius: 25px;
+}
+.indexcard{
+    width: 25%;
+}
+.indexcardbig{
+    width: 80%;
+}
+#content_create{
+    height: 200px;
+}
+#test{
+    background-color: #575fcf !important;
+    color : white !important;
+}
+.lireLaSuite{
+    color: #ffc048 !important;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.card{
+    padding-bottom: 20px;
+    border-radius: 25px;
+    border: 2px #ffc048 solid;
+}
+@media screen and (max-width:765px){
+    .indexcard{
+        margin: 0;
+        width: 80%;
+    }
+    .selectcreate{
+        flex-direction: column;
+        align-items: center;
+    }
+    #submitbutton{
+        margin: 10px;
+        margin-left: 0%;
+    }
+    #titleread{
+        font-size: 2rem !important;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:766px){
+    .indexcard{
+        width: 45%;
+    }
+}
